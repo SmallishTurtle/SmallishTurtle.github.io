@@ -3,7 +3,7 @@
 body{
 	background-image: url("background.gif");
 	background-size: 50%;
-	background-repeat:repeat;
+	background-repeat: repeat-x;
 	background-color: #4686d4;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
