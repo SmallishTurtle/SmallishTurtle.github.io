@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+body{
+	background-image: url("background.gif");
+	background-size: 50%;
+	background-repeat:repeat;
+	background-color: #4686d4;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	color: #cccccc;
+}
+
+p{
+	text-align: center;
+}
+h1{
+	color:#a3a3a3;
+	line-height:2em;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+img
+		{
+				margin-bottom: 30px;
+        -webkit-animation: action 1s infinite  alternate;
+        animation: action 1s infinite  alternate;
+    }
+    @-webkit-keyframes action {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-20px); }
+    }
+    @keyframes action {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-20px); }
+    }
+
+a:link {
+  color: #aaffa6;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #64bd60;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #d3ffd1;
+	cursor: url('clicky_cursor.png'), help;
+	text-decoration: none;
+}
