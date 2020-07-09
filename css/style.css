@@ -52,6 +52,6 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #d3ffd1;
-	cursor: url('clicky_cursor.png'), help;
+	cursor: url('clicky_cursor1.png'), help;
 	text-decoration: none;
 }
