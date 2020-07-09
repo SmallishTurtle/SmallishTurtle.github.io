@@ -47,15 +47,18 @@ img
 
 a:link {
   color: #aaffa6;
+	text-decoration:none;
 }
 
 /* visited link */
 a:visited {
   color: #64bd60;
+	text-decoration:none;
 }
 
 /* mouse over link */
 a:hover {
   color: #d3ffd1;
 	cursor: url('clicky_cursor1.png'), help;
+	text-decoration:none;
 }
